@@ -20,7 +20,6 @@
 \epigraph{In God we trust, all others must bring data.}{\textit{W.Edwards Deming}}
 
 \section{Heuristics of the linear regression}
-- Xét một tập hợp i.i.d điểm ngẫu nhiên $(X_i, Y_i)$, i=1,...,n:\\
 - Linear model đơn giản nhất là một model thể hiện được một tổ hợp tuyến tính   các thành phần của input variables:
 \[ y(x,w) = w_0 + w_1x_1 + ... +w_Dx_D \]
 Trong đó, $x = (x_1, ...,x_D)^{T}$. Đây được gọi là linear regression. Chìa khóa của mô hình này tính tuyến tính của các tham số $w_0, w_1,..w_D$. Chú ý rằng đối với model này ta cũng có thể xem là tuyến tính với các input variables $x_i$, và đây cũng là điểm yếu vì nếu chỉ dựa vào model này thì ta chỉ có thể xây dựng được một đường thẳng để ước lượng được mối tương quan giữa x và y. Chính vì thế người ta đã mở rộng mô hình bằng cách xem xét thêm tổ hợp tuyến tính của các hàm số phi tuyến tính của input theo biểu thức sau:
